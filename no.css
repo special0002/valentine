@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://im.rediff.com/money/2020/aug/25pm-modi.jpg?w=670&h=900"); 
+    background-size: cover;
+    background-size: 1360px 800px;  
+    background-repeat: no-repeat;
+  
+
+
+.card-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 10vh;
+}
+
+.card {
+  
+    padding: 20px;
+    background-color: rgb(134, 9, 30);
+    border-radius: 20px;
+    border-color: rgb(59, 3, 3);
+    border-style: solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    max-width: 500px; 
+    width: 100%;
+    text-align: justify;
+    height: 85px;
+    color: black;
+}
+
+.card p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #410505;
+}
+
